@@ -1,10 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .navColor {
-    background-color: slategrey;
+    background-color: black;
     padding: 20px;
 }
 .navText {
     color: white!important;
 }
+.paraText {
+    color: white;
+}
+.welcomeText {
+    font-family: 'Lobster';
+    font-size: 60px;
+    text-shadow: 2px 4px white;
+}
+.projectText {
+    font-family: 'Lobster';
+    font-size: 60px;
+    text-shadow: 2px 4px white;
+    margin: auto;
+}
 .contactColor {
-    background-color: slategrey;
+    background-color: black;
+}
+.myself {
+    background-image: url("../assets/images/Myself.JPG");
+    -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  max-width: 100%!important;
+  padding: 100px;
+}
+.quiz {
+    background-image: url("../assets/images/CodeQuiz.png");
+    -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+.firstProf {
+    background-image: url("../assets/images/FirstProfileEver.png");
+    -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+.group1 {
+    background-image: url("../assets/images/group1.png");
+    -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+.passwordGen {
+    background-image: url("../assets/images/PasswordGenerator.png");
+    -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+.weather {
+    background-image: url("../assets/images/WeatherApp.png");
+    -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+.workSchedule {
+    background-image: url("../assets/images/WorkSchedule.png");
+    -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  width: 100%;
+  padding: 100px;
+}
+.backgroundWeb {
+    background-image: url("../assets/images/samuel-ferrara-iecJiKe_RNg-unsplash.jpg");
+    -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  max-width: 100%!important;
+  padding: 100px;
+  margin-top: -120px;
+}
+.flexIt {
+    flex-direction: row; 
+}
+.seeThrough {
+    background-color: transparent;
+    border-color: transparent;
+}
+.hobbyBox {
+    font-family: 'Lobster';
+    font-size: 45px;
+    
+}
+.footContainer {
+    margin: auto;
+    width: 40em;
+    color: white;
+}
+.sizingGit {
+    width: 150px!important;
+    height: 150px!important;
+    color: white;
+    margin-left: 265px;
+    margin-top: 20px;
+}
+.sizingLinked {
+    color: white;
 }

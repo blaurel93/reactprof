@@ -4,24 +4,24 @@ import "../assets/style.css"
 
 const Footer = () => (
   <div className="p-3 text-left contactColor">
-    <Form>
-      <FormGroup>
-        <Label for="exampleEmail">Email</Label>
-        <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
-      </FormGroup>
-      <FormGroup>
-        <Label for="examplePassword">Password</Label>
-        <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
-      </FormGroup>
-      
-      
-      <FormGroup>
-        <Label for="exampleText">Text Area</Label>
-        <Input type="textarea" name="text" id="exampleText" />
-      </FormGroup>
-      
-      <Button>Submit</Button>
-    </Form>
+    
+    <div className="footContainer">
+      <Form>
+        <FormGroup>
+          <Label for="exampleEmail">Email</Label>
+          <Input type="email" name="email" id="exampleEmail" placeholder="Jdoe@gmail.com?" />
+        </FormGroup>
+        <FormGroup>
+          <Label for="exampleText">Whatcha want?!</Label>
+          <Input type="textarea" name="text" id="exampleText" />
+        </FormGroup>
+
+        <Button>Send it over!</Button>
+      </Form>
+    </div>
+    
+    <a href={"https://github.com/blaurel93"} target="_blank"><i className="fab fa-github-square fa-5x sizingGit"></i></a>
+    <a href={"https://www.linkedin.com/in/blaise-laurel-b6240a18b/"} target="_blank"><i className="fab fa-linkedin fa-5x sizingLinked"></i></a>
   </div>
 );
 export default Footer;

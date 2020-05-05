@@ -8,10 +8,10 @@ const NavBar = (props) => {
 
   return (
     <div>
-      <Navbar color="faded" light className="navColor">
-        <NavbarBrand href="/" className="mr-auto">BML</NavbarBrand>
-        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-        <Collapse isOpen={!collapsed} navbar>
+      <Navbar color="faded" dark className="navColor">
+        <NavbarBrand href="/" className="mr-auto navText">BML</NavbarBrand>
+        <NavbarToggler onClick={toggleNavbar} className="mr-2 navText" />
+        <Collapse className="navText" isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
               <NavLink href="#projects" className="navText">Projects</NavLink>

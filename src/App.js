@@ -10,7 +10,7 @@ function App() {
   return (
     <div id="app" className="d-flex flex-column h-100">
         <NavBar />
-        <Container className="flex-grow-1">
+        <Container className="flex-grow-1 backgroundWeb">
           <Content />
         </Container>
         <Footer />
