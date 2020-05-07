@@ -48,8 +48,7 @@ class Content extends Component {
             <Card>
               <CardImg className="quiz" />
               <CardBody>
-                <CardTitle>Blaise M. Laurel</CardTitle>
-                <CardSubtitle>Professional Steel Inspector</CardSubtitle>
+                <CardTitle>Coding Quiz</CardTitle>
                 <CardText>Currently going to school for computer coding.</CardText>
               </CardBody>
             </Card>
@@ -58,8 +57,7 @@ class Content extends Component {
             <Card>
               <CardImg className="firstProf" />
               <CardBody>
-                <CardTitle>Blaise M. Laurel</CardTitle>
-                <CardSubtitle>Professional Steel Inspector</CardSubtitle>
+                <CardTitle>First profile ever?</CardTitle>
                 <CardText>Currently going to school for computer coding.</CardText>
               </CardBody>
             </Card>
@@ -68,8 +66,7 @@ class Content extends Component {
             <Card>
               <CardImg className="group1" />
               <CardBody>
-                <CardTitle>Blaise M. Laurel</CardTitle>
-                <CardSubtitle>Professional Steel Inspector</CardSubtitle>
+                <CardTitle>First Group Project</CardTitle>
                 <CardText>Currently going to school for computer coding.</CardText>
               </CardBody>
             </Card>
@@ -80,8 +77,7 @@ class Content extends Component {
             <Card>
               <CardImg className="passwordGen" />
               <CardBody>
-                <CardTitle>Blaise M. Laurel</CardTitle>
-                <CardSubtitle>Professional Steel Inspector</CardSubtitle>
+                <CardTitle>Password Generator</CardTitle>
                 <CardText>Currently going to school for computer coding.</CardText>
               </CardBody>
             </Card>
@@ -90,8 +86,7 @@ class Content extends Component {
             <Card>
               <CardImg className="weather" />
               <CardBody>
-                <CardTitle>Blaise M. Laurel</CardTitle>
-                <CardSubtitle>Professional Steel Inspector</CardSubtitle>
+                <CardTitle>Weather API</CardTitle>
                 <CardText>Currently going to school for computer coding.</CardText>
               </CardBody>
             </Card>
@@ -100,8 +95,7 @@ class Content extends Component {
             <Card>
               <CardImg className="workSchedule" />
               <CardBody>
-                <CardTitle>Blaise M. Laurel</CardTitle>
-                <CardSubtitle>Professional Steel Inspector</CardSubtitle>
+                <CardTitle>Work Planner</CardTitle>
                 <CardText>Currently going to school for computer coding.</CardText>
               </CardBody>
             </Card>
